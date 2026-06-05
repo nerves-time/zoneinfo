@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.9
+
+* Changes
+  * Fix Elixir 1.20 warning
+
 ## v0.1.8
 
 * Changes
