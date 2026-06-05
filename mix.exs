@@ -8,7 +8,7 @@ defmodule Zoneinfo.MixProject do
     [
       app: :zoneinfo,
       version: @version,
-      elixir: "~> 1.13",
+      elixir: "~> 1.15",
       description: description(),
       package: package(),
       compilers: compilers(Mix.env()),
@@ -18,8 +18,13 @@ defmodule Zoneinfo.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       dialyzer: dialyzer(),
-      docs: docs(),
-      preferred_cli_env: %{
+      docs: docs()
+    ]
+  end
+
+  def cli do
+    [
+      preferred_envs: %{
         docs: :docs,
         "hex.publish": :docs,
         "hex.build": :docs
