@@ -166,7 +166,7 @@ defmodule Zoneinfo.TZif do
          _standard_indicators,
          _ut_indicators
        ) do
-    times = for <<time::signed-size(size) <- transition_times>>, do: to_gregorian_seconds(time)
+    times = for <<time::signed-size(^size) <- transition_times>>, do: to_gregorian_seconds(time)
 
     lt_record =
       for <<utoff::signed-32, dst, tz_index <- local_time_types>> do
