@@ -1,7 +1,8 @@
 # Zoneinfo
 
 [![Hex version](https://img.shields.io/hexpm/v/zoneinfo.svg "Hex version")](https://hex.pm/packages/zoneinfo)
-[![CircleCI](https://circleci.com/gh/smartrent/zoneinfo.svg?style=svg)](https://circleci.com/gh/smartrent/zoneinfo)
+[![API docs](https://img.shields.io/hexpm/v/zoneinfo.svg?label=hexdocs "API docs")](https://zoneinfo.hexdocs.pm/Zoneinfo.html)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nerves-time/zoneinfo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nerves-time/zoneinfo/tree/main)
 
 Elixir time zone support for your OS-supplied zoneinfo files
 

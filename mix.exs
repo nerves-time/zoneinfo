@@ -2,7 +2,7 @@ defmodule Zoneinfo.MixProject do
   use Mix.Project
 
   @version "0.1.8"
-  @source_url "https://github.com/smartrent/zoneinfo"
+  @source_url "https://github.com/nerves-time/zoneinfo"
 
   def project do
     [
