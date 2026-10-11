@@ -2,6 +2,7 @@
 
 [![Hex version](https://img.shields.io/hexpm/v/zoneinfo.svg "Hex version")](https://hex.pm/packages/zoneinfo)
 [![API docs](https://img.shields.io/hexpm/v/zoneinfo.svg?label=hexdocs "API docs")](https://zoneinfo.hexdocs.pm/Zoneinfo.html)
+[![Nerves compatibility](https://compatibility.nerves-project.org/badge/zoneinfo.svg)](https://compatibility.nerves-project.org/packages/zoneinfo)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/nerves-time/zoneinfo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nerves-time/zoneinfo/tree/main)
 
 Elixir time zone support for your OS-supplied zoneinfo files
